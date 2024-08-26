@@ -4,63 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Receitas</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <section class="nav-topo">
+        <div class="nav-topo">
             <img src="/assets/facebook_5968764.png" alt="Icone Facebook">
             <img src="/assets/whatsapp_733585 (1).png" alt="Icone Whatsapp">
-        </section>
-        <section>
-            <nav>
-                <a href="#Portal">Portal</a>
-                <a href="#Fórum">Fórum</a>
-                <a href="#Membros">Membros</a>
-                <form class="search-nav">
-                    <input type="text" id="search-nav" placeholder="Pesquisar">
-                    <a href="#"><img src class="search-icon" src="" alt=""></a>
-                </form>
-                <a href="#Login In">Login In</a>
-                <a href="#Registrar">Registrar</a>
-            </nav>
-        </section>
-
-        <main>
-            <img src="assets/fita-de-cetim-enrolada-em-fundo-amarelo_23-2147877859.jpg" alt="">
-            <section class="Button">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>Pesquisar</button>
-            </section>
-        </main>
-        <section>
-            <div class="card">
-                <img src="https://via.placeholder.com/150" alt="Imagem 1">
-                <div class="title">Acarajé</div>
-                <div class="description">Curtidas:</div>
-                <a href="paginaDoProduto.html" class="button"><button>Ver Detalhes</button></a>
-                <div class="description">Curtidas:</div>
-                <img src="https://via.placeholder.com/150" alt="Imagem 2">
-                <div class="title">Feijoada</div>
-                <div class="description">Curtidas:</div>
-                <a href="paginaDoProduto.html" class="button"><button>Ver Detalhes</button></a>
-                <img src="https://via.placeholder.com/150" alt="Imagem 3">
-                <div class="title">Tacacá</div>
-               <div class="description">Curtidas:</div>
-                <a href="paginaDoProduto.html" class="button"><button>Ver Detalhes</button></a>
-            </div>
-            </div>
-            </div>
-        </section>
+        </div>
+        
+        <div class="nav-bar">
+            <div class="nav-item"><a href="Menu"><button >Menu</button></a></div>
+            <div class="nav-item"><a href="pagina_receita_eduardo.html"><button>Receitas</button></a></div>
+            <div class="nav-item"><a href="login.html"><button>Registrar/Login In</button></a></div>
+            <form class="search-nav">
+                <input type="text" id="search-nav" placeholder="Pesquisar">
+                <a href="#"><img src class="search-icon" src="" alt=""></a>
+            </form>
+        </div>
     </header>
+    <main>
+        <section>
+            <div class="carrosel">
+                <img src="assets/fita-de-cetim-enrolada-em-fundo-amarelo_23-2147877859.jpg" alt="Carrosel">
+            </div>
+            <div class="receitas">
+                <a href="pagina_receita_eduardo.html"><img src="" alt="Tacaca"></a>
+                <img src="" alt="Feijoada">
+                <img src="" alt="Acaraje">
+            </div>
+        </section>
+    </main>
     <footer>
         <span>Top Receitas</span>
+        <a href="pagina_receita_eduardo.html"><img src="Tacaca" alt="Receita tacaca"></a>
         <a href=""><img src="" alt=""></a>
         <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <hr>
     </footer>
 </body>
 </html>
