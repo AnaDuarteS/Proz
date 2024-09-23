@@ -1,0 +1,107 @@
+img {
+    width: 100%;
+    height: auto;
+  }
+
+h3 {
+    background-color: #F5EF52;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+.description {
+    background-color: #F5EF52;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+
+.card {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-right: 10px;
+
+}
+
+   
+header {
+    background-color: #F5EF52;
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-between; 
+    flex-direction: row;
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+header button {
+    background-color: #EFB726;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5%;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+header button.login {
+    background-color: #B3261E;
+    color: white;
+}
+header #nav-bar{
+    flex-direction:row-reverse;
+    justify-content: center;
+}
+
+header #pesquisa {
+    flex: 2;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    background: transparent;
+    border-bottom: black 1px solid;
+}
+
+header #buscar {
+    border: 0;
+}
+
+.capa {
+    margin-top: 150px;
+}
+
+nav{
+    background-color: #F5EF52;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+NAV #post{
+    border-left: ;
+}
+
+
+#posts {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F2E7;
+    flex-direction: row;
+    margin: 150px 20px;
+}
+
+
+footer {
+    background-color: #242021;
+    justify-content:end  ;
+}
