@@ -9,21 +9,20 @@
 </head>
 <body>
     <header>
-        <nav class="nav-bar">
+        <nav>
             <div class="nav-bar">
-                <div class="nav-item"><a href="index.html"><button>MENU</button></a></div>
-                <div class="nav-item"><a href="paginaDePesquisa.html"><button>RECEITAS</button></a></div>
-                <div class="nav-item"><a href="login.html"><button>LOGIN</button></a></div>
-            </div>
+                <a href="#"><button>MENU</button></a>
+                <a href="pagina_receita_eduardo.html"><button>RECEITAS</button></a>
+                <a href="login.html"><button class="login">LOGIN</button></a>
             
-            <div class="pesquisa">
-                <input type="text" placeholder="Tacacá" >
-                <a href="paginapesquisa.html"><button>BUSCAR</button></a>
-            </div>
+                <div class="pesquisa">
+                    <input type="text" placeholder="Pesquisar" id="pesquisa">
+                </div>
+                <div class="buscar"><a href="paginapesquisa.html"class="buscar"><button class="buscar">BUSCAR</button></a></div>
+            </div>  
         </nav>
-        
-        
     </header>
+
 
     <main>
         <section>
@@ -39,14 +38,26 @@
                 <img src="" alt="Acaraje">
             </div>
         </section>
-        
-        <section-bottom>
-            <span>Top Receitas</span>
-            <a href="pagina_receita_eduardo.html"><img src="" alt="Receita tacaca"></a>
-            <a href=""><img src="" alt="Torta Doce"></a>
-            <a href=""><img src="" alt="Feijoada"></a>
-        </section-bottom>
-
+        <section id="posts">
+            <a href="pagina_receita_eduardo.html">
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="Post 1">
+                <h1 class="cardText">Post 1</h1>
+            </div>
+        </a>
+        <a href="pagina_receita_eduardo.html">
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="Post 2">
+                <h1 class="cardText">Post 2</h1>
+            </div>
+        </a>
+        <a href="pagina_receita_eduardo.html">
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="Post 3">
+                <h1 class="cardText">Post 3</h1>
+            </div>
+        </a>
+        </section>
     </main>
 
     <footer>
