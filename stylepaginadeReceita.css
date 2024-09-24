@@ -1,3 +1,27 @@
+
+textarea{
+    background-color: #eae8b8;
+    margin: 10px;
+    padding: 10px;
+}
+
+section-bottom  {
+   
+    background-color: #242021;
+    justify-content:end ;
+}
+
+a[href$="meublog"]{
+    color:#F1F2E7
+
+}
+
+
+footer span{
+    color:#F1F2E7
+    
+}
+
 img {
     width: 100%;
     height: auto;
@@ -7,7 +31,6 @@ h3 {
     background-color: #F5EF52;
     margin: 10px;
     padding: 10px;
-    cursor: pointer;
 }
 
 
