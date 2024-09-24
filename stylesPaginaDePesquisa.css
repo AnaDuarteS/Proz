@@ -1,0 +1,62 @@
+.pesquisa-recentes{
+    margin: 0;
+    padding: 0;
+
+}
+.texto-pesquisa{
+    text-align: center;
+    margin-top: 80px;
+}
+.contener-pesquisa{
+    display: flex;
+    
+}
+.imagens-pesquisa-recente{
+    width: 390px;
+    height: 215px;
+}
+.texto-tacaca p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: rgb(88, 88, 88);
+}
+.contener-pesquisa h3, .contener-pesquisa p {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-receitas{
+   margin: 0;
+   padding: 0;
+}
+.linha-receita{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    
+}
+.escolha-receita{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(89, 88, 88);
+}
+.container-receitas-populares{
+    display: flex;
+
+}
+.imagem-receitas-populares{
+    width: 390px;
+    height: 215px;
+}
+.texto-container-receitas-populares {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Para centralizar verticalmente */
+}   
+
+
+.texto-container-receitas-populares h3, 
+.texto-container-receitas-populares p {
+    margin: 0;
+}
+
