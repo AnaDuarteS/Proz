@@ -3,66 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/paginaDoUsuario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Página de Usuário</title>
-    
 </head>
 <body>
+    
     <header>
-        <div class="nav-bar">
-            <div class="nav-item"><a href="#"><button>MENU</button></a></div>
-            <div class="nav-item"><a href="pagina_receita_eduardo.html"><button>RECEITAS</button></a></div>
-            <div class="nav-item"><a href="login.html"><button>LOGIN</button></a></div>
-        </div>
-        
-        <div class="pesquisa">
-            <input type="text" placeholder="Pesquisar" >
-            <a href="paginapesquisa.html"><button>BUSCAR</button></a>
-        </div>
+        <nav>
+            <div class="nav-bar">
+                <a href="#"><button>MENU</button></a>
+                <a href="pagina_receita_eduardo.html"><button>RECEITAS</button></a>
+                <a href="login.html"><button class="login">LOGIN</button></a>
+            
+                <div class="pesquisa">
+                    <input type="text" placeholder="Pesquisar" id="pesquisa">
+                </div>
+                <div class="buscar"><a href="paginapesquisa.html"class="buscar"><button class="buscar">BUSCAR</button></a></div>
+            </div>  
+        </nav>
     </header>
 
     <main>
-        <section >
-            <div >
-                <img src="https://via.placeholder.com/800x300" alt="Capa" style="width: 100%;">
-                <div >
-                    <img src="https://via.placeholder.com/100" alt="Avatar" >
-                    <span >Username</span>
-                </div>
+        <section class="capa">
+            <div class="imagemfundo">
+                <img src="c:\Users\Pichau\Pictures\fundo-receitas.jpg" alt="imagemfundo">
+            </div>
+            <div class="icone-usuario">
+                <img src="https://via.placeholder.com/100" alt="Avatar">
+                <span>Username</span>
             </div>
         </section>
-
-        <nav>
-            <a href="#" >Posts</a>
-            <a href="#" >Curtidas</a>
-        </nav>
+        <section class="barra">
+            <button class="btn" id="post">POSTS</button>
+            <div class="divider"></div>
+            <button class="btn" id="curtidas">CURTIDAS</button>
+        </section>
+       
     
-        <!-- Galeria de Posts -->
         <section id="posts">
-            <div>
+            <a href="pagina_receita_eduardo.html">
+            <div class="card">
                 <img src="https://via.placeholder.com/150" alt="Post 1">
-                <div >Post 1</div>
+                <h1 class="cardText">Post 1</h1>
             </div>
-
-            <div>
+        </a>
+        <a href="pagina_receita_eduardo.html">
+            <div class="card">
                 <img src="https://via.placeholder.com/150" alt="Post 2">
-                <div >Post 2</div>
+                <h1 class="cardText">Post 2</h1>
             </div>
-
-            <div>
+        </a>
+        <a href="pagina_receita_eduardo.html">
+            <div class="card">
                 <img src="https://via.placeholder.com/150" alt="Post 3">
-                <div>Post 3</div>
+                <h1 class="cardText">Post 3</h1>
             </div>
-
-            <div>
+        </a>
+        <a href="pagina_receita_eduardo.html">
+            <div class="card">
                 <img src="https://via.placeholder.com/150" alt="Post 4">
-                <div >Post 4</div>
+                <h1 class="cardText">Post 4</h1>
             </div>
+        </a>
         </section>
     
         <section id="comentarios">
-            <h2 style>TOP COMMENTS</h2>
-            <div >
-                <div>
+            <h2 >TOP COMMENTS</h2>
+            <div>
+                <div class="user">
                     <img src="https://via.placeholder.com/50" alt="User" style="border-radius: 50%; margin-right: 10px;">
                     <div>
                         <strong>Usuário</strong>
@@ -71,7 +82,7 @@
                 </div>
             </div>
             
-            <div class="postcard">
+            <div class="user">
                 <div>
                     <img src="https://via.placeholder.com/50" alt="User" style="border-radius: 50%; margin-right: 10px;">
                     <div>
@@ -81,7 +92,7 @@
                 </div>
             </div>
     
-            <div class="postcard">
+            <div class="user">
                 <div>
                     <img src="https://via.placeholder.com/50" alt="User" style="border-radius: 50%; margin-right: 10px;">
                     <div>
@@ -91,21 +102,13 @@
                 </div>
             </div>
         </section>
-        
-        <section-bottom>
-            <span>Top Receitas</span>
-            <a href="pagina_receita_eduardo.html"><img src="" alt="Receita tacaca"></a>
-            <a href=""><img src="" alt="Torta Doce"></a>
-            <a href=""><img src="" alt="Feijoada"></a>
-        </section-bottom>
     </main>
     
     <footer>
         <span>Contato</span>
         <ul>
-            <li><a href="facebook.com/meublog">Facebook</a></li>
-            <li><a href="instagram.com/meublog">Instagram</a></li>
-            <li><a href="twitter.com/meublog">Twitter</a></li>
+            <a href="facebook.com/meublog">Facebook</a>
+           <a href="instagram.com/meublog">Instagram</a>
         </ul>
     </footer>
 
