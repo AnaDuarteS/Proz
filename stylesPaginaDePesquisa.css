@@ -54,6 +54,18 @@
     justify-content: center; /* Para centralizar verticalmente */
 }   
 
+section-bottom{
+    background-color: #363131;
+    display: flex;
+    flex-direction: column;
+}
+.topReceitas{
+    color: #EFB726 ;
+    border-bottom: #EFB726 1px solid;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 1500px 10px  10px ;
+}
 
 .texto-container-receitas-populares h3, 
 .texto-container-receitas-populares p {
