@@ -1,27 +1,3 @@
-
-textarea{
-    background-color: #eae8b8;
-    margin: 10px;
-    padding: 10px;
-}
-
-section-bottom  {
-   
-    background-color: #242021;
-    justify-content:end ;
-}
-
-a[href$="meublog"]{
-    color:#F1F2E7
-
-}
-
-
-footer span{
-    color:#F1F2E7
-    
-}
-
 img {
     width: 100%;
     height: auto;
@@ -31,6 +7,7 @@ h3 {
     background-color: #F5EF52;
     margin: 10px;
     padding: 10px;
+    cursor: pointer;
 }
 
 
@@ -57,36 +34,39 @@ h3 {
 header {
     background-color: #F5EF52;
     display: flex;
-    margin: 0px;
     align-items: center;
     justify-content: space-between; 
-    flex-direction: row;
-    padding: 10px;
-    margin: 0px 10px;
+    padding: 10px 20px; 
+    margin: 0; 
 }
 
 header button {
-    background-color: #EFB726;
+    background: transparent;
+    color: #967122;
+    font-weight:bolder;
+    font-size: medium;
     margin: 10px;
     padding: 10px;
     cursor: pointer;
     border: 0;
     border-radius: 5%;
     font-family: "Inter", sans-serif;
-    color: white;
 }
 
 header button.login {
-    background-color: #B3261E;
-    color: white;
+    background:transparent;
+    color: #967122;
+    font-weight:bolder;
+    font-size: medium;
 }
-header #nav-bar{
-    flex-direction:row-reverse;
-    justify-content: center;
+
+header .nav-bar {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
 }
 
 header #pesquisa {
-    flex: 2;
     margin: 10px;
     padding: 10px;
     border: 0;
@@ -109,7 +89,7 @@ nav{
     padding: 20px;
 }
 NAV #post{
-    border-left: ;
+    border-left:saddlebrown ;
 }
 
 
