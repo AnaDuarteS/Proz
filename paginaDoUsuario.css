@@ -11,36 +11,39 @@ body {
 header {
     background-color: #F5EF52;
     display: flex;
-    margin: 0px;
     align-items: center;
     justify-content: space-between; 
-    flex-direction: row;
-    padding: 10px;
-    margin: 0px 10px;
+    padding: 10px 20px; 
+    margin: 0; 
 }
 
 header button {
-    background-color: #EFB726;
+    background: transparent;
+    color: #967122;
+    font-weight:bolder;
+    font-size: medium;
     margin: 10px;
     padding: 10px;
     cursor: pointer;
     border: 0;
     border-radius: 5%;
     font-family: "Inter", sans-serif;
-    color: white;
 }
 
 header button.login {
-    background-color: #B3261E;
-    color: white;
+    background:transparent;
+    color: #967122;
+    font-weight:bolder;
+    font-size: medium;
 }
-header #nav-bar{
-    flex-direction:row-reverse;
-    justify-content: center;
+
+header .nav-bar {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
 }
 
 header #pesquisa {
-    flex: 2;
     margin: 10px;
     padding: 10px;
     border: 0;
@@ -52,20 +55,76 @@ header #buscar {
     border: 0;
 }
 
+
 .capa {
-    margin-top: 150px;
+    position: relative; 
+    width: 100%;
+    height: 400px; 
 }
 
-nav{
-    background-color: #F5EF52;
+.icone-usuario {
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+    display: flex;
+    align-items: center; 
+    z-index: 2;
+}
+
+.icone-usuario img {
+    border-radius: 50%; 
+    width: 100px; 
+    height: 100px;
+    margin-right: 10px; 
+}
+
+.icone-usuario span {
+    font-size: 24px; 
+    color: white; 
+    font-weight: bold;
+}
+
+.imagemfundo img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+
+.barra {
+    background-color: #F5EF52; 
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 20px;
-}
-NAV #post{
-    border-left: ;
+    height: 60px;
+    position: relative;
 }
 
+.barra .btn {
+    background: none;
+    border: none;
+    color: #967122;
+    font-weight:bolder;
+    font-size: medium;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0 50px; 
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+
+.barra .divider {
+    width: 1px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 
 #posts {
@@ -75,7 +134,7 @@ NAV #post{
     align-items: center;
     background-color: #F1F2E7;
     flex-direction: row;
-    margin: 150px 20px;
+    margin: auto;
 }
 
 .card {
@@ -89,7 +148,19 @@ NAV #post{
     background: #fff;
     flex: 0;
 }
+.card-link {
+    text-decoration: none;
+    color: inherit; 
+    display: block; 
+    height: 100%; 
+}
 
+.card:hover {
+    transform: scale(1.05); 
+}
+.cardText{
+    color: black;
+}
 #comentarios {
     background-color: #363131;
     display: flex;
