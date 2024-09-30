@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    color: #f4f2ed;
+    color: #1b1915;
     text-decoration: none;
 }
 
@@ -62,8 +62,6 @@ header {
     color: var(--primary);
 }
 
-}
-
 footer {
     background-color: #242021;
     justify-content:end  ;
@@ -74,4 +72,9 @@ ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
+}
+
+footer {
+    background-color: #242021;
+    justify-content:end  ;
 }
