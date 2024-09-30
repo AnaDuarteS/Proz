@@ -10,7 +10,7 @@ img {
 }
 
 :root {
-    --primary: #ff3700;
+    --primary: #110f0e;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
 }
 
 header {
-    background-color: #e9e9af;
+    background-color: #e5e555;
     position: relative;
     top: 0;
     left: 0;
