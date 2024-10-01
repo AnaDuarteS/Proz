@@ -66,7 +66,7 @@ header {
 
 footer {
     background-color: #242021;
-    justify-content:end  ;
+    justify-content:end;
 }
 
 
@@ -76,8 +76,22 @@ ul {
     list-style: none;
 }
 
-footer {
+#section-bottom {
     background-color: #242021;
-    justify-content:end;
-    height: 100px;
+    color: #e5e555;
+    text-align: left;
+    justify-content: center;
+}
+
+
+#section-bottom {
+   
+    align-items: column;
+    background-color: #242021;
+}
+
+#section-bottom img {
+    width: 10%;
+    display: flex;
+    align-items: column;
 }
