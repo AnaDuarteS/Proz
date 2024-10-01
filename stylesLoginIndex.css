@@ -7,6 +7,8 @@
  
 img {
     width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 :root {
@@ -76,5 +78,6 @@ ul {
 
 footer {
     background-color: #242021;
-    justify-content:end  ;
+    justify-content:end;
+    height: 100px;
 }
