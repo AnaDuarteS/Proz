@@ -65,10 +65,16 @@ header {
 }
 
 footer {
-    background-color: #242021;
-    justify-content:end;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e5e555;
+    color: #1a1407;
+    box-sizing: border-box;
+    
 }
-
 
 ul {
     display: flex;
@@ -80,7 +86,6 @@ ul {
     background-color: #242021;
     color: #e5e555;
     text-align: start;
-    display: flexbox;
     justify-content: center;
     
 }
@@ -105,6 +110,3 @@ ul {
     
 }
 
-.img1 {
-    display: flexbox;
-}
