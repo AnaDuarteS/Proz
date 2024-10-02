@@ -1,8 +1,7 @@
 img {
     width: 100%;
-    height: auto;
     margin-bottom: 40px;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 body {
@@ -12,25 +11,33 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    color: #1b1915;
     text-decoration: none;
 }
 
-.nav {
+header {
+    background-color: #F5EF52;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 20px; 
+    margin: 0; 
+}
+
+nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #242021;
 }
+
 .nav li {
     list-style: none;
     margin: 0 10px;
     align-items: center;
-    justify-content: center;
-    
 }
 
 .nav li a {
-    color: #EFB726;
+    color: #7c5b08;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
@@ -42,6 +49,12 @@ body {
     color: var(--primary);
 }
 
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
 h3 {
     background-color: #F5EF52;
     margin: 10px;
@@ -49,16 +62,12 @@ h3 {
     cursor: pointer;
 }
 
-
-
 .description {
     background-color: #F5EF52;
     margin: 10px;
     padding: 10px;
     cursor: pointer;
-
 }
-
 
 .card {
     width: 75px;
@@ -66,12 +75,7 @@ h3 {
     border-radius: 50%;
     background-color: gray;
     margin-right: 10px;
-
 }
-header {
-    background-color: #e5e555;
-}
-
 
 header button {
     background: transparent;
@@ -121,10 +125,10 @@ nav{
     justify-content: center;
     padding: 20px;
 }
+
 NAV #post{
     border-left:saddlebrown ;
 }
-
 
 #posts {
     display: flex;
@@ -136,8 +140,32 @@ NAV #post{
     margin: 150px 20px;
 }
 
-
 footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e5e555;
+    color: #1a1407;
+    box-sizing: border-box;  
+}
+
+#section-bottom img {
+    width: 10%;  
+}
+
+#section-bottom {
     background-color: #242021;
-    justify-content:end  ;
+    color: #e5e555;
+    text-align: start;
+    justify-content: center;  
+}
+
+section-bottom a {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    color: rgba(235, 236, 230, 0.918);
+    text-decoration: none;
 }
