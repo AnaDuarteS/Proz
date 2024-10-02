@@ -1,19 +1,13 @@
-*{
-    font-family: Arial, sans-serif;
-    
-}
- 
+
 img {
     width: 100%;
     margin-bottom: 40px;
     margin-top: 40px;
 }
 
-:root {
-    --primary: #110f0e;
-}
 
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -46,7 +40,7 @@ nav {
 }
 
 .nav li a {
-    color: #EFB726;
+    color: #7c5b08;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
