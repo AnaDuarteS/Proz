@@ -1,8 +1,6 @@
 *{
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    
 }
  
 img {
@@ -26,18 +24,15 @@ body {
 }
 
 header {
-    background-color: #e5e555;
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
+    background-color: #F5EF52;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 20px 100px;
-    z-index: 10;
+    justify-content: space-between; 
+    padding: 10px 20px; 
+    margin: 0; 
 }
-.nav {
+
+nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,7 +41,7 @@ header {
     list-style: none;
     margin: 0 10px;
     align-items: center;
-    justify-content: center;
+
     
 }
 
