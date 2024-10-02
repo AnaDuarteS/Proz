@@ -3,58 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="paginaDoUsuario.css" rel="stylesheet"/>
+    <link href="stylesPaginaDePesquisa.css" rel="stylesheet"/>
     <title>Pagina de Pesquisa</title>
-    <link rel="stylesheet" href="stylesPaginaDePesquisa.css">
+  
 </head>
 <body>
-    <header>        
-        <ul class="nav">
-            <li><a href="paginaDeReceita">RECEITAS</a></li>
-            <li><a href="paginaDoUsuario.html">PERFIL</a></li>
-            <li><a href="login.html">LOGIN</a></li>
-            
-        </ul>  
+    <header>
+        <div class="nav-bar">
+            <div class="nav-item"><a href="#"><button>MENU</button></a></div>
+            <div class="nav-item"><a href="login.html"><button>LOGIN</button></a></div>
+        </div>
+        
+        <div class="pesquisa">
+            <input type="text" placeholder="Tacacá" >
+            <a href="paginapesquisa.html"><button>BUSCAR</button></a>
+        </div>
     </header>
-
     <main>
-        <div class="section large-section">
-            <h1>Pesquisa Recente</h1>
-            <div class="imagens">
-                <a href="pagina_receita_eduardo.html"><img src="/assets/tacaca3.png" alt=Imagem-Tacaca"></a>
-                <p>Tacacá</p>
+    <div class="pesquisa-recentes">
+        <h2 class="texto-pesquisa">Pesquisa Recente</h2>
+        <div class="contener-pesquisa">
+            <a href="paginaDeReceita.html"><img src="../Proz-main/assets/tacaca3.png" class="imagens-pesquisa-recente" alt="Imagem-Tacaca"></a>
+            <div class="texto-container">
+                <h3 class="texto-tacaca">Tacacá</h3>
             </div>
         </div>
-    
-        <div class="section">
-            <div class="large-bold-text">__________ RECEITAS __________</div>
-            <div class="large-bold-text" style="font-weight: normal;">ESCOLHA SUA RECEITA</div>
-        </div>
-    
-        <div class="section">
-            <h2 class="highlight">RECEITAS POPULARES</h2>
-            <img src="/assets/torta3.png" alt="Imagem-Torta">
-            <p>Torta Doce</p>
-            <img src="/assets/acaraje3.png" alt="Imagem-acajare">
-            <p>Mini acajare na airfyer</p>
-            <img src="/assets/Feijoada3.png" alt="Imagem-feijoada">
-            <p>Feijoada tradicional</p>
-        </div>
+    </div>
 
-        <section-bottom>
-            <span>Top Receitas</span>
-            <a href="pagina_receita_eduardo.html"><img src="" alt="Receita tacaca"></a>
-            <a href=""><img src="" alt="Torta Doce"></a>
-            <a href=""><img src="" alt="Feijoada"></a>
-        </section-bottom>
+    <div class="texto-receitas">
+        <div class="linha-receita">__________ RECEITAS __________</div>
+        <div class="escolha-receita">ESCOLHA SUA RECEITA</div>
+    </div>
+
+    <div class="texto-receita-populares">
+        <h2 class="texto-populares">RECEITAS POPULARES</h2>
+    </div>
+    
+    <div class="container-receitas-populares">
+        <img src="../Proz-main/assets/torta3.png" class="imagem-receitas-populares" alt="Imagem-Torta">
+        <div class="texto-container-receitas-populares">
+            <h3>Torta Doce</h3>
+            <p>Uma torta doce deixa qualquer ocasião mais especial, desde<br> o café da manhã e o lanche da tarde até o aniversário e as festas de família</p>
+        </div>
+    </div>
+    <hr class="linha-hr">
+    <div class="container-receitas-populares">
+        <img src="../Proz-main/assets/acaraje3.png" class="imagem-receitas-populares" alt="Imagem-Torta">
+        <div class="texto-container-receitas-populares">
+            <h3>Mini acajare na airfyer</h3>
+            <p>Você sabia que a palavra acarajé se origina da língua africana<br> iorubá? Nessa designação, 'akará' quer dizer “bola de fogo” e 'jé' significa “comer”.</p>
+        </div>
+    </div>
+    <hr class="linha-hr">
+    <div class="container-receitas-populares">
+        <img src="../Proz-main/assets/Feijoada3.png" class="imagem-receitas-populares" alt="Imagem-Torta">
+        <div class="texto-container-receitas-populares">
+            <h3>Feijoada tradicional</h3>
+            <p>Um clássico da nossa culinária, a feijoada é um prato que possui algumas<br> variações, mas todas bem deliciosas! Esta receita de feijoada que trazemos pra você <br>é bem tradicional, contendo carnes como orelha, rabo e pé de porco.<br>Confira como fazer e capriche no seu almoço!</p>
+        </div>
+    </div>
+
+    <section-bottom>
+        <span class="topReceitas">Top Receitas</span>
+        <a href="pagina_receita_eduardo.html"> <div class="TopReceita">
+            <div>
+                <img src="https://via.placeholder.com/50" alt="User" style="border-radius: 50%; margin-right: 10px;">
+                <div>
+                    <strong>Nome da receita</strong>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div class="TopReceita">
+            <div>
+                <img src="https://via.placeholder.com/50" alt="User" style="border-radius: 50%; margin-right: 10px;">
+                <div>
+                    <strong>Nome da receita</strong>
+                </div>
+            </div>
+        </div></a>
+        <a href=""><div class="TopReceita">
+            <div>
+                <img src="https://via.placeholder.com/50" alt="User" style="border-radius: 50%; margin-right: 10px;">
+                <div>
+                    <strong>Nome da receita</strong>
+                </div>
+            </div>
+        </div></a>
+    </section-bottom>   
     </main>
-
+    
     <footer>
+        <span>Contato</span>
         <ul>
-            <li><a href=”facebook.com/meublog”>Facebook</a></li>
-            <li><a href=”instagram.com/meublog”>Instagram</a></li>
-            <li><a href=”twitter.com/meublog”>Twitter</a></li>
-         </ul>
+            <li><a href="facebook.com/meublog">Facebook</a></li>
+            <li><a href="instagram.com/meublog">Instagram</a></li>
+            <li><a href="twitter.com/meublog">Twitter</a></li>
+        </ul>
     </footer>
 
 </body>
 </html>
+
