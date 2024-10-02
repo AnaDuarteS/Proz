@@ -1,5 +1,5 @@
-*, *{
-    font-family: Arial, sans-serif;
+*{
+    font-family: Ari;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,7 +16,6 @@ img {
 }
 
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -108,5 +107,16 @@ ul {
 #section-bottom img {
     width: 10%;
     
+}
+
+
+h1 {
+    color: #444444;
+    t
+}
+
+#texto {
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
