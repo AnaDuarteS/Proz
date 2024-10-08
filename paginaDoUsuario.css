@@ -5,7 +5,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
 }
    
 header {
@@ -37,22 +36,36 @@ header button.login {
     font-size: medium;
 }
 
-header .nav-bar {
-    flex-direction: row;
-    align-items: center;
+nav {
     display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav li {
+    list-style: none;
+    margin: 0 10px;
+    align-items: center;
+  
 }
 
-header #pesquisa {
-    margin: 10px;
-    padding: 10px;
-    border: 0;
-    background: transparent;
-    border-bottom: black 1px solid;
+.nav li a {
+    color: #7c5b08;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-header #buscar {
-    border: 0;
+.nav li:hover a {
+    color: var(--primary);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
 }
 
 
@@ -69,32 +82,41 @@ header #buscar {
     display: flex;
     align-items: center; 
     z-index: 2;
+    margin: 0px 200px;
+
 }
 
 .icone-usuario img {
     border-radius: 50%; 
     width: 100px; 
     height: 100px;
+    max-width: 1600px;
+    max-height: 800px;
     margin-right: 10px; 
+    margin: 0px 200px;
+
 }
 
 .icone-usuario span {
     font-size: 24px; 
     color: white; 
     font-weight: bold;
+    margin: 0px;
 }
 
 .imagemfundo img {
-    width: 100%; 
+    width: 83%; 
     height: 100%; 
-    object-fit: cover; 
+    object-fit: cover ; 
     position: absolute; 
     top: 0;
     left: 0;
     z-index: 1; 
+    margin: 0px 200px;
 }
 
 .barra {
+    margin: 0px 199px;
     background-color: #F5EF52; 
     display: flex;
     justify-content: center;
@@ -128,13 +150,13 @@ header #buscar {
 
 
 #posts {
+    margin: 0px 199px;
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
     align-items: center;
     background-color: #F1F2E7;
     flex-direction: row;
-    margin: auto;
 }
 
 .card {
@@ -176,9 +198,11 @@ header #buscar {
     color: white;
     border-bottom: #EFB726 1px solid;
     padding-bottom: 10px;
+    margin: 10px 1500px 10px  10px ;
+
 }
 
 footer {
     background-color: #242021;
-    justify-content:end  ;
+    justify-content:end ;
 }
