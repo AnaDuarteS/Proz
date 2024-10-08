@@ -112,4 +112,17 @@ section-bottom{
     margin: 0;
 }
 
+#card {
+    background-color: #EFB726;
+}
 
+footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e5e555;
+    color: #1a1407;
+    box-sizing: border-box;  
+}
