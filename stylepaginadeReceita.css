@@ -171,3 +171,7 @@ section-bottom a {
     color: rgba(235, 236, 230, 0.918);
     text-decoration: none;
 }
+
+span {
+    margin-left: 2%;
+}
