@@ -4,27 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login/Registro</title>
-    <link rel="stylesheet" href="stylesLoginIndex.css"> 
+    <link rel="stylesheet" href="stylesLogin.css"> 
 </head>
 <body>
-    <header>
-        <nav class="nav-bar">
-            <div class="nav-bar">
-                <div class="nav-item"><a href="index.html"><button>MENU</button></a></div>
-                <div class="nav-item"><a href="paginaDePesquisa.html"><button>RECEITAS</button></a></div>
-                <div class="nav-item"><a href="login.html"><button>LOGIN</button></a></div>
-            </div>
-            
-            <div class="pesquisa">
-                <input type="text" placeholder="Tacacá" >
-                <a href="paginapesquisa.html"><button>BUSCAR</button></a>
-            </div>
-    </header>
 
     <main>
-        <section>
-        <form action="">
-            <h1>Faça seu login</h1>
+        <section id="login">
+        <form id="login">
+            <div class="buttonsform">
+                <button class="Btnlogin">Login</button>
+                <button class="BtnCadastrese">Cadastre-se</button></div>            
             <div>
                 <label for="email">Seu email </label>
                 <input type="email" id="email" />
@@ -35,10 +24,7 @@
                 <input type="password" id="password" />
             </div>
     
-            <div>
-                <input type="checkbox">
-                <p>Lembrar-me</p>
-            </div>
+        
     
             <button>Entrar</button>
             <p>
@@ -46,6 +32,23 @@
             </p>
         </form>
     </section>
-
+    <aside  >
+        <form id="Cadastro">
+            <h1>Cadastre-se</h1>
+            <div>
+                <label for="Nome">Seu nome </label>
+                <input type="text" id="Name" placeholder="Seu Nome" />
+            </div>
+            <div>
+                <label for="email">Seu email </label>
+                <input type="email" id="email" />
+            </div>
+            <div>
+                <label for="password">Sua senha </label>
+                <input type="password" id="password" />
+            </div>
+            <button>Concluir</button>
+        </form>
+    </aside>
 </body>
 </html>
