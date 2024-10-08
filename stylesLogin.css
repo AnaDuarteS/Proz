@@ -11,7 +11,11 @@ body {
 
 
 main {
+<<<<<<< HEAD
     background-image: url("C:/Users/Pichau/Downloads/Proz-main/assets/top-view-food-ingredients-with-notebook-pumpkin.jpg"); 
+=======
+    background-image: url("assets/top-view-food-ingredients-with-notebook-pumpkin.jpg"); 
+>>>>>>> 564c2edbd675922ca1813a39dd48960b690c82fc
     padding: 20px;
     flex-grow: 1;
     display: flex;
@@ -95,7 +99,11 @@ aside{
         background-color: white;
         color:#333
     }
+<<<<<<< HEAD
+}
+=======
 }
 
 
 
+>>>>>>> 564c2edbd675922ca1813a39dd48960b690c82fc
