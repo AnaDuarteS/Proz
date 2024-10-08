@@ -4,30 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receita</title>
-    <link rel="stylesheet" href="stylepaginadeReceita.css" />
+    <link rel="stylesheet" href="stylepaginadeReceita.css">
 </head>
 <body>
-    <header>
-        <div class="nav-bar">
-            <div class="nav-item"><a href="index.html"><button>MENU</button></a></div>
-            <div class="nav-item"><a href="paginaDePesquisa.html"><button>RECEITAS</button></a></div>
-            <div class="nav-item"><a href="login.html"><button>LOGIN</button></a></div>
-        </div>
-        
-        <div class="pesquisa">
-            <input type="text" placeholder="Pesquisar" >
-            <a href="paginaDePesquisa.html"><button>BUSCAR</button></a>
-        </div>
+    <header>        
+        <ul class="nav">
+            <li><a href="paginaDeReceita">RECEITAS</a></li>
+            <li><a href="paginaDoUsuario.html">PERFIL</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            
+        </ul>  
     </header>
 
     <main>
         <section>
-            <img src="assets\tacaca.png" alt="" >
+            <img src="assets/tacaca2.jpg" alt="Tacaca">
         </section>
 
         <section>
             <div class="card">
-                <img src="assets\avatar.png" alt="user" style="border-radius: 50%; margin-right: 40px;">
+                <img src="assets\avatar.png" alt="user" style="border-radius: 50%; margin-right: 20p; display: block;">
             </div>
             <div>
                 <strong>Cozinheiro Eduardo</strong>
@@ -83,21 +79,31 @@
         </section>  
         
         <section-bottom>
-            <span>Top Receitas</span>
-            <li><a href="paginaDeReceita.html"><img src="" alt="Receita tacaca"></a></li>
-            <li><a href="paginaDeReceita.html"><img src="" alt="Receita tacaca"></a></li>
-            <li><a href="paginaDeReceita.html"><img src="" alt="Receita tacaca"></a></li>
-          
-        </section-bottom>
-    </main>
+            
+            <div id="section-bottom">
+            
+                <span>Top Receitas</span>
+
+                <div class="img1">
+                    <a href="paginaDeReceita.html"><img src="assets/acaraje3.png" alt="Acarajé">Acarajé</a>
+            
+                </div>
+
+                <div class="img2">
+                    <a href="paginaDeReceita.html"><img src="assets/tacaca3.png" alt="Tacacá">Tacacá</a>
+                </div>
+                
+                <div class="img3">
+                    <a href="paginaDeReceita.html"><img src="assets/feijoada3.jpg" alt="Feijoada">Feijoada</a>
+                </div>
+        
+            </div>  
+        </section-bottom>     
  
     <footer>
-        <span>Contato</span>
-        <ul>
-            <li><a href="facebook.com/meublog">Facebook</a></li>
-            <li><a href="instagram.com/meublog">Instagram</a></li>
-            <li><a href="twitter.com/meublog">Twitter</a></li>
-        </ul>
+        <footer>
+            Copyright 2024 © - Site Receitas™ 
+        </footer>
     </footer>
     
 </body>
