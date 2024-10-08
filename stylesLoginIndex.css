@@ -71,10 +71,12 @@ ul {
     color: #e5e555;
     text-align: start;
     justify-content: center;  
+    
 }
 
 #section-bottom img {
     width: 10%;  
+    margin-left: 2%;
 }
 
 h1 {
