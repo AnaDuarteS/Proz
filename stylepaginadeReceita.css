@@ -153,6 +153,8 @@ footer {
 
 #section-bottom img {
     width: 10%;  
+    margin-left: 2%;
+    border-radius: 8px;
 }
 
 #section-bottom {

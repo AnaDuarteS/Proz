@@ -71,17 +71,22 @@ ul {
     color: #e5e555;
     text-align: start;
     justify-content: center;  
-    
 }
+
 
 #section-bottom img {
     width: 10%;  
     margin-left: 2%;
+    border-radius: 8px;
 }
 
 h1 {
     color: #444444;
     padding: 10px;
+}
+
+span {
+    margin-left: 2%;
 }
 
 #texto {
