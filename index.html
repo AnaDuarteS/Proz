@@ -3,71 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receitas</title>
-    <link rel="stylesheet" href="stylesLoginIndex.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Site de Receitas</title>
+    <link rel="stylesheet" href="stylesLoginIndex.css">
+
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="nav-bar">
-                <a href="#"><button>MENU</button></a>
-                <a href="pagina_receita_eduardo.html"><button>RECEITAS</button></a>
-                <a href="login.html"><button class="login">LOGIN</button></a>
+    <header>        
+        <ul class="nav">
+            <li><a href="paginaDePesquisa.html">RECEITAS</a></li>
+            <li><a href="paginaDoUsuario.html">PERFIL</a></li>
+            <li><a href="login.html">LOGIN</a></li>
             
-                <div class="pesquisa">
-                    <input type="text" placeholder="Pesquisar" id="pesquisa">
-                </div>
-                <div class="buscar"><a href="paginapesquisa.html"class="buscar"><button class="buscar">BUSCAR</button></a></div>
-            </div>  
-        </nav>
+        </ul>  
     </header>
-
-
     <main>
         <section>
-            <img src="assets\tacaca.png" alt="" >
+            <h1>Bem vindo ao Site de Receitas!</h1>
+
+            <div id="texto">
+                <p>Aqui você vai encontrar receitas regionais brasileiras</p>
+
+                <p>Compartilhe e troque ideias sobre suas receitas favoritas de sua região!</p>
+            </div>
+            
+            
+            <div class="banner2">
+                <a href="paginaDeReceita.html"><img src="assets/tacaca2.jpg" alt=""></a></a>
+            </div>
+
+            <div class="banner"></div>
+                <img src="assets/ACARAJPE.png" alt="">
+            </div>
+
         </section>
-        <section>
-            <div class="carrosel">
-                <img src="assets/ACARAJPE_page-0001.jpg" alt="">
-            </div>
-            <div class="receitas">
-                <a href="pagina_receita_eduardo.html"><img src="" alt="Tacaca"></a>
-                <img src="" alt="Feijoada">
-                <img src="" alt="Acaraje">
-            </div>
-        </section>
-        <section id="posts">
-            <a href="pagina_receita_eduardo.html">
-            <div class="card">
-                <img src="https://via.placeholder.com/150" alt="Post 1">
-                <h1 class="cardText">Post 1</h1>
-            </div>
-        </a>
-        <a href="pagina_receita_eduardo.html">
-            <div class="card">
-                <img src="https://via.placeholder.com/150" alt="Post 2">
-                <h1 class="cardText">Post 2</h1>
-            </div>
-        </a>
-        <a href="pagina_receita_eduardo.html">
-            <div class="card">
-                <img src="https://via.placeholder.com/150" alt="Post 3">
-                <h1 class="cardText">Post 3</h1>
-            </div>
-        </a>
-        </section>
+
+            <section-bottom>
+            
+                <div id="section-bottom">
+                
+                    <span>Top Receitas</span>
+
+                    <div class="img1">
+                        <a href="paginaDeReceita.html"><img src="assets/acaraje3.png" alt="Acarajé">Acarajé</a>
+                
+                    </div>
+
+                    <div class="img2">
+                        <a href="paginaDeReceita.html"><img src="assets/tacaca3.png" alt="Tacacá">Tacacá</a>
+                    </div>
+                    
+                    <div class="img3">
+                        <a href="paginaDeReceita.html"><img src="assets/feijoada3.jpg" alt="Feijoada">Feijoada</a>
+                    </div>
+            
+                </div>  
+            </section-bottom>             
+
     </main>
 
     <footer>
-        <span>Contato</span>
-        <ul>
-            <li><a href=”facebook.com/meublog”>Facebook</a></li>
-            <li><a href=”instagram.com/meublog”>Instagram</a></li>
-            <li><a href=”twitter.com/meublog”>Twitter</a></li>
-        </ul>
+        Copyright 2024 © - Site Receitas™ 
     </footer>
-
 </body>
 </html>
