@@ -1,0 +1,74 @@
+body {
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+main {
+    background-image: url("C:/Users/Pichau/Downloads/Proz-main/assets/top-view-food-ingredients-with-notebook-pumpkin.jpg"); 
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+#cadastro{
+    background-color: #EFB726;
+}
+form{
+    background-color: #EFB726;
+    padding: 80px;
+    justify-content: center;
+}
+
+form h1 {
+    text-align: center;
+    color: #333;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    font-size: 14px;
+    color: #333;
+}
+
+form input[type="email"],
+form input[type="password"],
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.span-required{
+    display: none;
+    font-size: 12px;
+    margin: 3px 0 0 1px;
+    color: red;
+}
+
+form input[type="checkbox"] {
+    position: relative;
+    margin: auto;
+}
+
+form button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #B3261E;
+}
